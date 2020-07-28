@@ -8,6 +8,8 @@ def BattingAverage(Stats, Results):
     # This number is between zero (shown as .000) and one (1.000).
 
     index = 0
+    at_bats = 0
+    hits = 0
 
     for player in Stats:
 
@@ -15,12 +17,21 @@ def BattingAverage(Stats, Results):
 
             index += 1
 
+            if index == 6:
+
+                at_bats = int(stat)
+
             if index == 7:
 
-                print(stat)
+                hits = int(stat)
 
-                break
-                
+        print("hits: ", hits)    
+        print("AB:", at_bats)
+
+        bat_avg = hits / at_bats
+        print("batting avg: ", bat_avg )
+        print()
+
         index = 0
 
 
