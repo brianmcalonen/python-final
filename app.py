@@ -1,27 +1,35 @@
+import BB
+
+
 def main():
 
-    readData()
+    HeaderRow = []
 
-def readData():
+    Stats = []
+
+    Results = []
+
+    readData(Stats, Results, HeaderRow)
+
+    BB.BattingAverage(Stats, Results)
+
+
+def readData(Stats, Results, HeaderRow):
 
     infile = open('./BaseballStats.txt','r')
-
-    Headers = []
-
-    List_of_Lists = []
 
     temp = infile.readline()
 
     while temp != '':
 
-        List_of_Lists.append(temp.split(" "))
+        Stats.append(temp.split(" "))
 
         temp = infile.readline()
 
-    Headers = List_of_Lists.pop(0)
+    HeaderRow = Stats.pop(0)
 
-    print(List_of_Lists)
+    # print(Stats)
 
-    print(Headers)
+    # print(HeaderRow)
 
 main()
