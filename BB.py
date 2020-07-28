@@ -29,7 +29,7 @@ def BattingAverage(Stats, Results):
         print("AB:", at_bats)
 
         bat_avg = hits / at_bats
-        print("batting avg: ", bat_avg )
+        print("batting avg: ", round(bat_avg, 3) )
         print()
 
         index = 0
