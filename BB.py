@@ -1,3 +1,41 @@
+def PlayerInfo(Stats, Results):
+    index = 0
+    first_name = ""
+    last_name = ""
+    position = ""
+    team = ""
+
+    for player in Stats:
+
+        for stat in player:
+
+            if index == 0:
+
+                first_name = stat
+
+            if index == 1:
+
+                last_name = stat
+
+            if index == 2:
+
+                position = stat
+
+            if index == 3:
+
+                team = stat
+
+            index += 1
+
+        print("First Name: ", first_name)  
+        print("Last Name: ", last_name)    
+        print("Position: ", position)    
+        print("Team: ", team)
+        print()
+
+        index = 0
+
+
 def BattingAverage(Stats, Results):
     print("BattingAverage")
 

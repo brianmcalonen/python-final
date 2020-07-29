@@ -11,7 +11,9 @@ def main():
 
     readData(Stats, Results, HeaderRow)
 
-    BB.BattingAverage(Stats, Results)
+    BB.PlayerInfo(Stats, Results)
+
+    # BB.BattingAverage(Stats, Results)
 
 
 def readData(Stats, Results, HeaderRow):
