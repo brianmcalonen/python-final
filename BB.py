@@ -4,6 +4,7 @@ def PlayerInfo(Stats, Results):
     last_name = ""
     position = ""
     team = ""
+    player_list = []
 
     for player in Stats:
 
@@ -33,9 +34,17 @@ def PlayerInfo(Stats, Results):
         print("Team: ", team)
         print()
 
+        player_list.append(first_name)
+        player_list.append(last_name)
+        player_list.append(position)
+        player_list.append(team)
+
+        Results.append(player_list)
+
+        player_list = []
+
         index = 0
-
-
+        
 def BattingAverage(Stats, Results):
     print("BattingAverage")
 
