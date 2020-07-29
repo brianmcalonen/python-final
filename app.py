@@ -13,10 +13,10 @@ def main():
 
     BB.PlayerInfo(Stats, Results)
 
-    # BB.BattingAverage(Stats, Results)
+    BB.BattingAverage(Stats, Results)
 
     print(Results)
-
+    
 
 def readData(Stats, Results, HeaderRow):
 
@@ -31,9 +31,5 @@ def readData(Stats, Results, HeaderRow):
         temp = infile.readline()
 
     HeaderRow = Stats.pop(0)
-
-    # print(Stats)
-
-    # print(HeaderRow)
 
 main()

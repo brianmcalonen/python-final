@@ -28,11 +28,11 @@ def PlayerInfo(Stats, Results):
 
             index += 1
 
-        print("First Name: ", first_name)  
-        print("Last Name: ", last_name)    
-        print("Position: ", position)    
-        print("Team: ", team)
-        print()
+        # print("First Name: ", first_name)  
+        # print("Last Name: ", last_name)    
+        # print("Position: ", position)    
+        # print("Team: ", team)
+        # print()
 
         player_list.append(first_name)
         player_list.append(last_name)
@@ -46,8 +46,6 @@ def PlayerInfo(Stats, Results):
         index = 0
         
 def BattingAverage(Stats, Results):
-    print("BattingAverage")
-
     # The batting average for all players should be calculated
     # Load into Results with this 1 function call.
     # All data read in resides in Stats and the calculations will be placed into Results.
@@ -55,6 +53,7 @@ def BattingAverage(Stats, Results):
     # This number is between zero (shown as .000) and one (1.000).
 
     index = 0
+    player_index = 0
     at_bats = 0
     hits = 0
 
@@ -72,12 +71,13 @@ def BattingAverage(Stats, Results):
 
                 hits = int(stat)
 
-        print("hits: ", hits)    
-        print("AB:", at_bats)
+        bat_avg = format(hits / at_bats, '.3f')
 
-        bat_avg = hits / at_bats
-        print("batting avg: ", round(bat_avg, 3) )
-        print()
+        # print(bat_avg)
+
+        Results[player_index].append(bat_avg)
+
+        player_index += 1
 
         index = 0
 
