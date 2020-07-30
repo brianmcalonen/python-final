@@ -49,3 +49,9 @@ allows the data to be sorted in ascending or descending order.
 https://stackoverflow.com/questions/8966538/syntax-behind-sortedkey-lambda
 https://docs.python.org/3/howto/sorting.html
 https://medium.com/@johngrant/python-list-sorting-keys-lambdas-1903b2a4c949
+
+
+def BattingAverage(Stats, Results):
+    count = len(Stats)
+    for i in range(count):
+        Results[i].append(int(Stats[i][7])/int(Stats[i][5]))
