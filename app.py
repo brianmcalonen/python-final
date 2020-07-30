@@ -1,6 +1,5 @@
 import BB
 
-
 def main():
 
     HeaderRow = []
@@ -16,7 +15,7 @@ def main():
     BB.BattingAverage(Stats, Results)
 
     print(Results)
-    
+
 
 def readData(Stats, Results, HeaderRow):
 

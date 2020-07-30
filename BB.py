@@ -82,18 +82,33 @@ def BattingAverage(Stats, Results):
         index = 0
 
 
-def SlugginPercentage(Stats, Results):
-    print("SlugginPercentage")
+def SluggingPercentage(Stats, Results):
+    print("SluggingPercentage")
+
+    # Slugging percentage differs from batting average in that all hits are not valued equally. 
+    # While batting average is calculated by dividing the total number of hits by the total 
+    # number of at-bats, the formula for slugging percentage is: 
+    # (1B + 2Bx2 + 3Bx3 + HRx4)/AB.
 
 def OnBasePercentage(Stats, Results):
     print("OnBasePercentage")
 
+    # On Base Percentage (aka OBP, On Base Average, OBA) is a measure of how often a batter 
+    # reaches base. It is approximately equal to Times on Base/Plate appearances.
+    # The full formula is:
+    # OBP = (Hits + Walks + Hit by Pitch) / (At Bats + Walks + Hit by Pitch + Sacrifice Flies)
+
 def OPS(Stats, Results):
     print("OPS")
+    # Sum of player's Slugging Percentage and On Base Percentage
 
 def RunsProduced(Stats, Results):    
     print("RunsProduced")
+    # Calculates the number of runs for which a player is directly responsible. 
+    # It is calculated by adding runs scored and runs batted in, and subtracting 
+    # home runs (i.e. RP = R + RBI — HR).
 
 def RunsProducedPerAtBat(Stats, Results):
     print("RunsProducedPerAtBat")
 
+    # RPPAB = (R + RBI - HR) / AB
