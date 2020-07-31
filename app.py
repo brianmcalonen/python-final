@@ -17,8 +17,10 @@ def main():
     BB.SluggingPercentage(Stats, Results)
 
     BB.OnBasePercentage(Stats, Results)
+
+    BB.OPS(Stats, Results)
     
-    print(Results)
+    # print(Results)
 
 def readData(Stats, Results, HeaderRow):
 

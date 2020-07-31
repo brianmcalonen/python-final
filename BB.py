@@ -137,6 +137,20 @@ def OnBasePercentage(Stats, Results):
 def OPS(Stats, Results):
     print("OPS")
     # Sum of player's Slugging Percentage and On Base Percentage
+    count = len(Results)
+
+    for i in range(count):
+
+            SP = float(Results[i][5])
+            OBP = float(Results[i][6])
+            OPS = format(SP + OBP, '.3f')
+
+            # print("SP: ", SP)
+            # print("OBP: ", OBP)
+            # print("OPS: ", OPS)
+            # print()
+
+            Results[i].append(OPS)
 
 def RunsProduced(Stats, Results):    
     print("RunsProduced")
