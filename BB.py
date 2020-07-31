@@ -110,8 +110,6 @@ def SluggingPercentage(Stats, Results):
         Results[i].append(slugging_percentage)
 
 def OnBasePercentage(Stats, Results):
-    print("OnBasePercentage")
-
     # On Base Percentage (aka OBP, On Base Average, OBA) is a measure of how often a batter 
     # reaches base. It is approximately equal to Times on Base/Plate appearances.
     # The full formula is:
@@ -135,7 +133,6 @@ def OnBasePercentage(Stats, Results):
             Results[i].append(OBP)
 
 def OPS(Stats, Results):
-    print("OPS")
     # Sum of player's Slugging Percentage and On Base Percentage
     count = len(Results)
 
@@ -157,6 +154,20 @@ def RunsProduced(Stats, Results):
     # Calculates the number of runs for which a player is directly responsible. 
     # It is calculated by adding runs scored and runs batted in, and subtracting 
     # home runs (i.e. RP = R + RBI — HR).
+
+    count = len(Stats)
+
+    for i in range(count):
+
+            Runs = int(Stats[i][6])
+            RBI = int(Stats[i][11])
+            HR = int(Stats[i][10])
+
+            # RunsProduced = R + RBI — HR
+            RP = Runs + RBI - HR
+
+            Results[i].append(RP)
+
 
 def RunsProducedPerAtBat(Stats, Results):
     print("RunsProducedPerAtBat")

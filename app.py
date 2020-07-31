@@ -19,8 +19,10 @@ def main():
     BB.OnBasePercentage(Stats, Results)
 
     BB.OPS(Stats, Results)
+
+    BB.RunsProduced(Stats, Results)
     
-    # print(Results)
+    print(Results)
 
 def readData(Stats, Results, HeaderRow):
 
