@@ -81,8 +81,6 @@ def BattingAverage(Stats, Results):
 
 
 def SluggingPercentage(Stats, Results):
-    print("SluggingPercentage")
-
     # Slugging percentage differs from batting average in that all hits are not valued equally. 
     # While batting average is calculated by dividing the total number of hits by the total 
     # number of at-bats, the formula for slugging percentage is: 
@@ -98,16 +96,16 @@ def SluggingPercentage(Stats, Results):
         HR = int(Stats[i][10])
         AB = int(Stats[i][5])
 
-        print("hits:", hits)
-        print("sb:", SB)
-        print("tb:", TB)
-        print("hr:", HR)
-        print("ab:", AB)
+        # print("hits:", hits)
+        # print("sb:", SB)
+        # print("tb:", TB)
+        # print("hr:", HR)
+        # print("ab:", AB)
 
         # ((hits - 2b - 3b - hr) + 2Bx2 + 3Bx3 + HRx4) / AB
         slugging_percentage = format(float((( hits - SB - TB - HR ) + ( SB * 2 ) + ( TB * 3 ) + ( HR * 4 )) / AB), '.3f')
 
-        print(slugging_percentage)
+        # print(slugging_percentage)
 
         Results[i].append(slugging_percentage)
 
@@ -118,6 +116,23 @@ def OnBasePercentage(Stats, Results):
     # reaches base. It is approximately equal to Times on Base/Plate appearances.
     # The full formula is:
     # OBP = (Hits + Walks + Hit by Pitch) / (At Bats + Walks + Hit by Pitch + Sacrifice Flies)
+
+    count = len(Stats)
+
+    for i in range(count):
+
+            Hits = int(Stats[i][7])
+            BB = int(Stats[i][12])
+            HBP = int(Stats[i][16])
+            AB = int(Stats[i][5])
+            SF = int(Stats[i][17])
+
+            # OBP = (Hits + Walks + Hit by Pitch) / (At Bats + Walks + Hit by Pitch + Sacrifice Flies)
+            OBP = format((Hits + BB + HBP) / (AB + BB + HBP + SF), '.3f')
+
+            # print(OBP)
+
+            Results[i].append(OBP)
 
 def OPS(Stats, Results):
     print("OPS")
