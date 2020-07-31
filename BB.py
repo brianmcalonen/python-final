@@ -88,24 +88,15 @@ def SluggingPercentage(Stats, Results):
     count = len(Stats)
 
     for i in range(count):
-        # Results[i].append(int(Stats[i][7])/int(Stats[i][5]))
 
-        hits = int(Stats[i][7])
+        Hits = int(Stats[i][7])
         SB = int(Stats[i][8])
         TB = int(Stats[i][9])
         HR = int(Stats[i][10])
         AB = int(Stats[i][5])
 
-        # print("hits:", hits)
-        # print("sb:", SB)
-        # print("tb:", TB)
-        # print("hr:", HR)
-        # print("ab:", AB)
-
         # ((hits - 2b - 3b - hr) + 2Bx2 + 3Bx3 + HRx4) / AB
-        slugging_percentage = format(float((( hits - SB - TB - HR ) + ( SB * 2 ) + ( TB * 3 ) + ( HR * 4 )) / AB), '.3f')
-
-        # print(slugging_percentage)
+        slugging_percentage = format(float((( Hits - SB - TB - HR ) + ( SB * 2 ) + ( TB * 3 ) + ( HR * 4 )) / AB), '.3f')
 
         Results[i].append(slugging_percentage)
 
@@ -128,8 +119,6 @@ def OnBasePercentage(Stats, Results):
             # OBP = (Hits + Walks + Hit by Pitch) / (At Bats + Walks + Hit by Pitch + Sacrifice Flies)
             OBP = format((Hits + BB + HBP) / (AB + BB + HBP + SF), '.3f')
 
-            # print(OBP)
-
             Results[i].append(OBP)
 
 def OPS(Stats, Results):
@@ -141,11 +130,6 @@ def OPS(Stats, Results):
             SP = float(Results[i][5])
             OBP = float(Results[i][6])
             OPS = format(SP + OBP, '.3f')
-
-            # print("SP: ", SP)
-            # print("OBP: ", OBP)
-            # print("OPS: ", OPS)
-            # print()
 
             Results[i].append(OPS)
 
@@ -183,7 +167,5 @@ def RunsProducedPerAtBat(Stats, Results):
 
             # RPPAB = (R + RBI - HR) / AB
             RPPAB = format((Runs + RBI - HR) / AB, '.3f')
-
-            print("RPPAB: ", RPPAB)
 
             Results[i].append(RPPAB)

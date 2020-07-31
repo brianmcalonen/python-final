@@ -1,4 +1,5 @@
 import BB
+import Reports
 
 def main():
 
@@ -9,7 +10,7 @@ def main():
     Results = []
 
     readData(Stats, Results, HeaderRow)
-
+    
     BB.PlayerInfo(Stats, Results)
 
     BB.BattingAverage(Stats, Results)
@@ -23,6 +24,8 @@ def main():
     BB.RunsProduced(Stats, Results)
 
     BB.RunsProducedPerAtBat(Stats, Results)
+
+    Reports.BattingAverage(Results)
     
     # print(Results)
 
