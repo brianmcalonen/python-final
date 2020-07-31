@@ -21,8 +21,10 @@ def main():
     BB.OPS(Stats, Results)
 
     BB.RunsProduced(Stats, Results)
+
+    BB.RunsProducedPerAtBat(Stats, Results)
     
-    print(Results)
+    # print(Results)
 
 def readData(Stats, Results, HeaderRow):
 

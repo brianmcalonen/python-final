@@ -172,4 +172,18 @@ def RunsProduced(Stats, Results):
 def RunsProducedPerAtBat(Stats, Results):
     print("RunsProducedPerAtBat")
 
-    # RPPAB = (R + RBI - HR) / AB
+    count = len(Stats)
+
+    for i in range(count):
+
+            Runs = int(Stats[i][6])
+            RBI = int(Stats[i][11])
+            HR = int(Stats[i][10])
+            AB = int(Stats[i][5])
+
+            # RPPAB = (R + RBI - HR) / AB
+            RPPAB = format((Runs + RBI - HR) / AB, '.3f')
+
+            print("RPPAB: ", RPPAB)
+
+            Results[i].append(RPPAB)
