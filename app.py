@@ -14,7 +14,10 @@ def main():
 
     BB.BattingAverage(Stats, Results)
 
-    print(Results)
+    BB.SluggingPercentage(Stats, Results)
+
+    
+    # print(Results)
 
 
 def readData(Stats, Results, HeaderRow):

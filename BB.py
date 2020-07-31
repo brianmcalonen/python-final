@@ -89,6 +89,11 @@ def SluggingPercentage(Stats, Results):
     # While batting average is calculated by dividing the total number of hits by the total 
     # number of at-bats, the formula for slugging percentage is: 
     # (1B + 2Bx2 + 3Bx3 + HRx4)/AB.
+    count = len(Stats)
+
+    for i in range(count):
+        # Results[i].append(int(Stats[i][7])/int(Stats[i][5]))
+        print(Stats[i])
 
 def OnBasePercentage(Stats, Results):
     print("OnBasePercentage")
