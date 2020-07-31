@@ -73,8 +73,6 @@ def BattingAverage(Stats, Results):
 
         bat_avg = format(hits / at_bats, '.3f')
 
-        # print(bat_avg)
-
         Results[player_index].append(bat_avg)
 
         player_index += 1
@@ -93,7 +91,25 @@ def SluggingPercentage(Stats, Results):
 
     for i in range(count):
         # Results[i].append(int(Stats[i][7])/int(Stats[i][5]))
-        print(Stats[i])
+
+        hits = int(Stats[i][7])
+        SB = int(Stats[i][8])
+        TB = int(Stats[i][9])
+        HR = int(Stats[i][10])
+        AB = int(Stats[i][5])
+
+        print("hits:", hits)
+        print("sb:", SB)
+        print("tb:", TB)
+        print("hr:", HR)
+        print("ab:", AB)
+
+        # ((hits - 2b - 3b - hr) + 2Bx2 + 3Bx3 + HRx4) / AB
+        slugging_percentage = format(float((( hits - SB - TB - HR ) + ( SB * 2 ) + ( TB * 3 ) + ( HR * 4 )) / AB), '.3f')
+
+        print(slugging_percentage)
+
+        Results[i].append(slugging_percentage)
 
 def OnBasePercentage(Stats, Results):
     print("OnBasePercentage")
