@@ -10,7 +10,7 @@ def main():
     Results = []
 
     readData(Stats, Results, HeaderRow)
-    
+
     BB.PlayerInfo(Stats, Results)
 
     BB.BattingAverage(Stats, Results)
@@ -26,6 +26,10 @@ def main():
     BB.RunsProducedPerAtBat(Stats, Results)
 
     Reports.BattingAverage(Results)
+
+    Reports.SluggingPercentage(Results)
+
+    Reports.OnBasePercentage(Results)
     
     # print(Results)
 

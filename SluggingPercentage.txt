@@ -1,0 +1,29 @@
++------------+-----------+----------+------+---------------------+
+| First Name | Last Name | Position | Team | Slugging Percentage |
++------------+-----------+----------+------+---------------------+
+| Christian  |  Yelich   |    RF    | MIL  |        0.671        |
+|    Cody    | Bellinger |    RF    | LAD  |        0.629        |
+|  Anthony   |  Rendon   |    3B    | WSH  |        0.598        |
+|   Ketel    |   Marte   |    CF    | ARI  |        0.592        |
+|   Nolan    |  Arenado  |    3B    | COL  |        0.583        |
+|    Pete    |  Alonso   |    1B    | NYM  |        0.583        |
+|  Charlie   | Blackmon  |    RF    | COL  |        0.576        |
+|  Eugenio   |  Suarez   |    3B    | CIN  |        0.572        |
+|    Josh    |   Bell    |    1B    | PIT  |        0.569        |
+|   Trevor   |   Story   |    SS    | COL  |        0.554        |
+|  Freddie   |  Freeman  |    1B    | ATL  |        0.549        |
+|    Juan    |   Soto    |    LF    | WSH  |        0.548        |
+|    Joc     | Pederson  |    LF    | LAD  |        0.538        |
+|    Jeff    |  McNeil   |    LF    | NYM  |        0.531        |
+|    Kyle    | Schwarber |    LF    | CHC  |        0.531        |
+|    Kris    |  Bryant   |    3B    | CHC  |        0.521        |
+|    Josh    | Donaldson |    3B    | ATL  |        0.521        |
+|  Anthony   |   Rizzo   |    1B    | CHC  |        0.520        |
+|   Ronald   |   Acuna   |    LF    | ATL  |        0.518        |
+|    Max     |   Muncy   |    1B    | LAD  |        0.515        |
+|   Bryce    |  Harper   |    RF    | PHI  |        0.510        |
+|   Justin   |  Turner   |    3B    | LAD  |        0.509        |
+|   Bryan    | Reynolds  |    LF    | PIT  |        0.503        |
+|   Ozzie    |  Albies   |    2B    | ATL  |        0.500        |
+|  Michael   | Conforto  |    RF    | NYM  |        0.494        |
++------------+-----------+----------+------+---------------------+

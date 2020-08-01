@@ -1,0 +1,29 @@
++------------+-----------+----------+------+--------------------+
+| First Name | Last Name | Position | Team | On Base Percentage |
++------------+-----------+----------+------+--------------------+
+| Christian  |  Yelich   |    RF    | MIL  |       0.429        |
+|  Anthony   |  Rendon   |    3B    | WSH  |       0.412        |
+|    Cody    | Bellinger |    RF    | LAD  |       0.406        |
+|  Anthony   |   Rizzo   |    1B    | CHC  |       0.405        |
+|    Juan    |   Soto    |    LF    | WSH  |       0.401        |
+|   Ketel    |   Marte   |    CF    | ARI  |       0.389        |
+|  Freddie   |  Freeman  |    1B    | ATL  |       0.389        |
+|    Jeff    |  McNeil   |    LF    | NYM  |       0.384        |
+|    Kris    |  Bryant   |    3B    | CHC  |       0.382        |
+|   Nolan    |  Arenado  |    3B    | COL  |       0.379        |
+|    Josh    | Donaldson |    3B    | ATL  |       0.379        |
+|   Bryan    | Reynolds  |    LF    | PIT  |       0.377        |
+|    Max     |   Muncy   |    1B    | LAD  |       0.374        |
+|   Bryce    |  Harper   |    RF    | PHI  |       0.372        |
+|   Justin   |  Turner   |    3B    | LAD  |       0.372        |
+|    Josh    |   Bell    |    1B    | PIT  |       0.367        |
+|   Ronald   |   Acuna   |    LF    | ATL  |       0.365        |
+|  Charlie   | Blackmon  |    RF    | COL  |       0.364        |
+|   Trevor   |   Story   |    SS    | COL  |       0.363        |
+|  Michael   | Conforto  |    RF    | NYM  |       0.363        |
+|    Pete    |  Alonso   |    1B    | NYM  |       0.358        |
+|  Eugenio   |  Suarez   |    3B    | CIN  |       0.358        |
+|   Ozzie    |  Albies   |    2B    | ATL  |       0.352        |
+|    Joc     | Pederson  |    LF    | LAD  |       0.339        |
+|    Kyle    | Schwarber |    LF    | CHC  |       0.339        |
++------------+-----------+----------+------+--------------------+

@@ -134,7 +134,6 @@ def OPS(Stats, Results):
             Results[i].append(OPS)
 
 def RunsProduced(Stats, Results):    
-    print("RunsProduced")
     # Calculates the number of runs for which a player is directly responsible. 
     # It is calculated by adding runs scored and runs batted in, and subtracting 
     # home runs (i.e. RP = R + RBI — HR).
@@ -154,7 +153,6 @@ def RunsProduced(Stats, Results):
 
 
 def RunsProducedPerAtBat(Stats, Results):
-    print("RunsProducedPerAtBat")
 
     count = len(Stats)
 
