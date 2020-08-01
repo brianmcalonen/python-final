@@ -77,3 +77,81 @@ def OnBasePercentage(Results):
     OBP_file.write(tabulate(OBP_list, headers="firstrow", tablefmt="pretty"))
 
     OBP_file.close()
+
+def OPS(Results):
+
+    OPS_file = open('OPS.txt', 'w')
+
+    OPS_list = []
+
+    OPS_header = ["First Name", "Last Name", "Position", "Team", "OPS"]
+
+    OPS_list.append(OPS_header)
+
+    Results.sort(key=lambda x:x[7], reverse = True)
+
+    count = len(Results)
+
+    for i in range(count):
+
+        # print(Results[i][7])
+
+        player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][7]]
+
+        OPS_list.append(player_stats)
+
+    OPS_file.write(tabulate(OPS_list, headers="firstrow", tablefmt="pretty"))
+
+    OPS_file.close()
+
+def RunsProduced(Results):
+
+    RP_file = open('RunsProduced.txt', 'w')
+
+    RP_list = []
+
+    RP_header = ["First Name", "Last Name", "Position", "Team", "Runs Produced"]
+
+    RP_list.append(RP_header)
+
+    Results.sort(key=lambda x:x[8], reverse = True)
+
+    count = len(Results)
+
+    for i in range(count):
+
+        # print(Results[i][8])
+
+        player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][8]]
+
+        RP_list.append(player_stats)
+
+    RP_file.write(tabulate(RP_list, headers="firstrow", tablefmt="pretty"))
+
+    RP_file.close()
+
+def RunsProducedPerAtBat(Results):
+
+    RPPAB_file = open('RunsProducedPerAtBat.txt', 'w')
+
+    RPPAB_list = []
+
+    RPPAB_header = ["First Name", "Last Name", "Position", "Team", "Runs Produced Per At Bat"]
+
+    RPPAB_list.append(RPPAB_header)
+
+    Results.sort(key=lambda x:x[9], reverse = True)
+
+    count = len(Results)
+
+    for i in range(count):
+
+        # print(Results[i][9])
+
+        player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][9]]
+
+        RPPAB_list.append(player_stats)
+
+    RPPAB_file.write(tabulate(RPPAB_list, headers="firstrow", tablefmt="pretty"))
+
+    RPPAB_file.close()

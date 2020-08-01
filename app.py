@@ -30,6 +30,12 @@ def main():
     Reports.SluggingPercentage(Results)
 
     Reports.OnBasePercentage(Results)
+
+    Reports.OPS(Results)
+
+    Reports.RunsProduced(Results)
+
+    Reports.RunsProducedPerAtBat(Results)
     
     # print(Results)
 

@@ -1,0 +1,29 @@
++------------+-----------+----------+------+--------------------------+
+| First Name | Last Name | Position | Team | Runs Produced Per At Bat |
++------------+-----------+----------+------+--------------------------+
+|  Anthony   |  Rendon   |    3B    | WSH  |          0.383           |
+|    Juan    |   Soto    |    LF    | WSH  |          0.343           |
+|    Cody    | Bellinger |    RF    | LAD  |          0.339           |
+|    Max     |   Muncy   |    1B    | LAD  |          0.337           |
+|  Freddie   |  Freeman  |    1B    | ATL  |          0.328           |
+|    Josh    |   Bell    |    1B    | PIT  |          0.328           |
+| Christian  |  Yelich   |    RF    | MIL  |          0.313           |
+|   Bryce    |  Harper   |    RF    | PHI  |          0.309           |
+|  Anthony   |   Rizzo   |    1B    | CHC  |          0.305           |
+|   Nolan    |  Arenado  |    3B    | COL  |          0.304           |
+|   Ronald   |   Acuna   |    LF    | ATL  |          0.299           |
+|  Charlie   | Blackmon  |    RF    | COL  |          0.286           |
+|    Pete    |  Alonso   |    1B    | NYM  |          0.285           |
+|    Kris    |  Bryant   |    3B    | CHC  |          0.284           |
+|    Josh    | Donaldson |    3B    | ATL  |          0.279           |
+|   Ketel    |   Marte   |    CF    | ARI  |          0.276           |
+|   Bryan    | Reynolds  |    LF    | PIT  |          0.275           |
+|   Trevor   |   Story   |    SS    | COL  |          0.274           |
+|  Michael   | Conforto  |    RF    | NYM  |          0.271           |
+|    Joc     | Pederson  |    LF    | LAD  |          0.269           |
+|    Jeff    |  McNeil   |    LF    | NYM  |          0.265           |
+|    Kyle    | Schwarber |    LF    | CHC  |          0.257           |
+|   Ozzie    |  Albies   |    2B    | ATL  |          0.256           |
+|   Justin   |  Turner   |    3B    | LAD  |          0.251           |
+|  Eugenio   |  Suarez   |    3B    | CIN  |          0.245           |
++------------+-----------+----------+------+--------------------------+

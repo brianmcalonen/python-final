@@ -1,0 +1,29 @@
++------------+-----------+----------+------+---------------+
+| First Name | Last Name | Position | Team | Runs Produced |
++------------+-----------+----------+------+---------------+
+|  Anthony   |  Rendon   |    3B    | WSH  |      209      |
+|  Freddie   |  Freeman  |    1B    | ATL  |      196      |
+|    Cody    | Bellinger |    RF    | LAD  |      189      |
+|   Ronald   |   Acuna   |    LF    | ATL  |      187      |
+|    Juan    |   Soto    |    LF    | WSH  |      186      |
+|   Nolan    |  Arenado  |    3B    | COL  |      179      |
+|   Bryce    |  Harper   |    RF    | PHI  |      177      |
+|    Josh    |   Bell    |    1B    | PIT  |      173      |
+|    Pete    |  Alonso   |    1B    | NYM  |      170      |
+|  Charlie   | Blackmon  |    RF    | COL  |      166      |
+|    Max     |   Muncy   |    1B    | LAD  |      164      |
+|   Ozzie    |  Albies   |    2B    | ATL  |      164      |
+|   Trevor   |   Story   |    SS    | COL  |      161      |
+|   Ketel    |   Marte   |    CF    | ARI  |      157      |
+|  Anthony   |   Rizzo   |    1B    | CHC  |      156      |
+|    Kris    |  Bryant   |    3B    | CHC  |      154      |
+| Christian  |  Yelich   |    RF    | MIL  |      153      |
+|    Josh    | Donaldson |    3B    | ATL  |      153      |
+|  Michael   | Conforto  |    RF    | NYM  |      149      |
+|  Eugenio   |  Suarez   |    3B    | CIN  |      141      |
+|    Kyle    | Schwarber |    LF    | CHC  |      136      |
+|    Jeff    |  McNeil   |    LF    | NYM  |      135      |
+|   Bryan    | Reynolds  |    LF    | PIT  |      135      |
+|    Joc     | Pederson  |    LF    | LAD  |      121      |
+|   Justin   |  Turner   |    3B    | LAD  |      120      |
++------------+-----------+----------+------+---------------+

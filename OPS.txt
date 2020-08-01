@@ -1,0 +1,29 @@
++------------+-----------+----------+------+-------+
+| First Name | Last Name | Position | Team |  OPS  |
++------------+-----------+----------+------+-------+
+| Christian  |  Yelich   |    RF    | MIL  | 1.100 |
+|    Cody    | Bellinger |    RF    | LAD  | 1.035 |
+|  Anthony   |  Rendon   |    3B    | WSH  | 1.010 |
+|   Ketel    |   Marte   |    CF    | ARI  | 0.981 |
+|   Nolan    |  Arenado  |    3B    | COL  | 0.962 |
+|    Juan    |   Soto    |    LF    | WSH  | 0.949 |
+|    Pete    |  Alonso   |    1B    | NYM  | 0.941 |
+|  Charlie   | Blackmon  |    RF    | COL  | 0.940 |
+|  Freddie   |  Freeman  |    1B    | ATL  | 0.938 |
+|    Josh    |   Bell    |    1B    | PIT  | 0.936 |
+|  Eugenio   |  Suarez   |    3B    | CIN  | 0.930 |
+|  Anthony   |   Rizzo   |    1B    | CHC  | 0.925 |
+|   Trevor   |   Story   |    SS    | COL  | 0.917 |
+|    Jeff    |  McNeil   |    LF    | NYM  | 0.915 |
+|    Kris    |  Bryant   |    3B    | CHC  | 0.903 |
+|    Josh    | Donaldson |    3B    | ATL  | 0.900 |
+|    Max     |   Muncy   |    1B    | LAD  | 0.889 |
+|   Ronald   |   Acuna   |    LF    | ATL  | 0.883 |
+|   Bryce    |  Harper   |    RF    | PHI  | 0.882 |
+|   Justin   |  Turner   |    3B    | LAD  | 0.881 |
+|   Bryan    | Reynolds  |    LF    | PIT  | 0.880 |
+|    Joc     | Pederson  |    LF    | LAD  | 0.877 |
+|    Kyle    | Schwarber |    LF    | CHC  | 0.870 |
+|  Michael   | Conforto  |    RF    | NYM  | 0.857 |
+|   Ozzie    |  Albies   |    2B    | ATL  | 0.852 |
++------------+-----------+----------+------+-------+
