@@ -1,0 +1,29 @@
++------------+-----------+----------+------+-----------------+
+| First Name | Last Name | Position | Team | Batting Average |
++------------+-----------+----------+------+-----------------+
+| Christian  |  Yelich   |    RF    | MIL  |      0.329      |
+|   Ketel    |   Marte   |    CF    | ARI  |      0.329      |
+|  Anthony   |  Rendon   |    3B    | WSH  |      0.319      |
+|    Jeff    |  McNeil   |    LF    | NYM  |      0.318      |
+|   Nolan    |  Arenado  |    3B    | COL  |      0.315      |
+|  Charlie   | Blackmon  |    RF    | COL  |      0.314      |
+|   Bryan    | Reynolds  |    LF    | PIT  |      0.314      |
+|    Cody    | Bellinger |    RF    | LAD  |      0.305      |
+|  Freddie   |  Freeman  |    1B    | ATL  |      0.295      |
+|   Ozzie    |  Albies   |    2B    | ATL  |      0.295      |
+|   Trevor   |   Story   |    SS    | COL  |      0.294      |
+|  Anthony   |   Rizzo   |    1B    | CHC  |      0.293      |
+|   Justin   |  Turner   |    3B    | LAD  |      0.290      |
+|    Juan    |   Soto    |    LF    | WSH  |      0.282      |
+|    Kris    |  Bryant   |    3B    | CHC  |      0.282      |
+|   Ronald   |   Acuna   |    LF    | ATL  |      0.280      |
+|    Josh    |   Bell    |    1B    | PIT  |      0.277      |
+|  Eugenio   |  Suarez   |    3B    | CIN  |      0.271      |
+|    Pete    |  Alonso   |    1B    | NYM  |      0.260      |
+|   Bryce    |  Harper   |    RF    | PHI  |      0.260      |
+|    Josh    | Donaldson |    3B    | ATL  |      0.259      |
+|  Michael   | Conforto  |    RF    | NYM  |      0.257      |
+|    Max     |   Muncy   |    1B    | LAD  |      0.251      |
+|    Kyle    | Schwarber |    LF    | CHC  |      0.250      |
+|    Joc     | Pederson  |    LF    | LAD  |      0.249      |
++------------+-----------+----------+------+-----------------+

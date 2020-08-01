@@ -52,32 +52,16 @@ def BattingAverage(Stats, Results):
     # Divide a player's hits by his total at-bats. 
     # This number is between zero (shown as .000) and one (1.000).
 
-    index = 0
-    player_index = 0
-    at_bats = 0
-    hits = 0
+    count = len(Stats)
 
-    for player in Stats:
+    for i in range(count):
 
-        for stat in player:
+        Hits = int(Stats[i][7])
+        AB = int(Stats[i][5])
 
-            index += 1
+        batting_avg = format(Hits / AB, '.3f')
 
-            if index == 6:
-
-                at_bats = int(stat)
-
-            if index == 7:
-
-                hits = int(stat)
-
-        bat_avg = format(hits / at_bats, '.3f')
-
-        Results[player_index].append(bat_avg)
-
-        player_index += 1
-
-        index = 0
+        Results[i].append(batting_avg)
 
 
 def SluggingPercentage(Stats, Results):
