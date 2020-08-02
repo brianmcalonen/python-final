@@ -1,3 +1,4 @@
+# import modules for main function
 import BB
 import PrintReports
 import ReadData
@@ -5,12 +6,12 @@ import Reports
 
 def main():
 
+    # variables for empty lists 
     HeaderRow = []
-
     Stats = []
-
     Results = []
 
+    # call functions from imported modules
     ReadData.readData(Stats, Results, HeaderRow)
 
     BB.PlayerInfo(Stats, Results)
@@ -41,4 +42,5 @@ def main():
 
     PrintReports.printReports()  
 
+# call the main function
 main()

@@ -1,12 +1,12 @@
-### Project 10
+### Final Project
+
+## Programming Fundamentals I course (COSC-1336)
 
 # Brian McAlonen
 # ACCid: 2046751
 # 08/02/2020
 
-Final project for Programming Fundamentals I course (COSC-1336)
-
-The steps required to accomplish this goal can be roughly described as follows:
+The steps required to accomplish this goal can be described as the follows:
 
 * Input the data
 * Validate the data
@@ -22,3 +22,20 @@ To install the Python library and the command line utility, run:
 
 pip install tabulate
 
+    count = len(Stats)
+
+    for i in range(count):
+
+        first_name = str(Stats[i][0])
+        last_name = str(Stats[i][1])
+        position = str(Stats[i][2])
+        team = str(Stats[i][3])
+
+        info_list = []
+
+        info_list.append(first_name)
+        info_list.append(last_name)
+        info_list.append(position)
+        info_list.append(team)
+
+        Results[i].append(info_list)

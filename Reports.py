@@ -1,29 +1,42 @@
+# import tabulate library
 from tabulate import tabulate
+
+# same process is used for each function in this module
 
 def BattingAverage(Results):
 
+    # open file for writing
     BA_file = open('./Reports/BattingAverage.txt', 'w')
 
+    # set variable to empty list
     BA_list = []
 
+    # set variable for header information
     BA_header = ["First Name", "Last Name", "Position", "Team", "Batting Average"]
 
+    # append header list to the empty list
     BA_list.append(BA_header)
 
+    # sort the results list by batting_avg in descending order
     Results.sort(key=lambda x:x[4], reverse = True)
 
+    # length of the Results list
     count = len(Results)
 
+    # for each element in the results list
     for i in range(count):
 
-        # print(Results[i][4])
-
+        # set variable for each Results element's stats
         player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][4]]
 
+        # append player stats to the list containing the header
         BA_list.append(player_stats)
 
+    # write the batting_avg list to the file 
+    # use the tabulate library to style the reports
     BA_file.write(tabulate(BA_list, headers="firstrow", tablefmt="pretty"))
 
+    # close batting_avg file
     BA_file.close()
 
 def SluggingPercentage(Results):
@@ -68,8 +81,6 @@ def OnBasePercentage(Results):
 
     for i in range(count):
 
-        # print(Results[i][6])
-
         player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][6]]
 
         OBP_list.append(player_stats)
@@ -93,8 +104,6 @@ def OPS(Results):
     count = len(Results)
 
     for i in range(count):
-
-        # print(Results[i][7])
 
         player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][7]]
 
@@ -120,8 +129,6 @@ def RunsProduced(Results):
 
     for i in range(count):
 
-        # print(Results[i][8])
-
         player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][8]]
 
         RP_list.append(player_stats)
@@ -145,8 +152,6 @@ def RunsProducedPerAtBat(Results):
     count = len(Results)
 
     for i in range(count):
-
-        # print(Results[i][9])
 
         player_stats = [Results[i][0], Results[i][1], Results[i][2], Results[i][3], Results[i][9]]
 
