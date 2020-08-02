@@ -2,7 +2,7 @@ from tabulate import tabulate
 
 def BattingAverage(Results):
 
-    BA_file = open('./Results/BattingAverage.txt', 'w')
+    BA_file = open('./Reports/BattingAverage.txt', 'w')
 
     BA_list = []
 
@@ -28,7 +28,7 @@ def BattingAverage(Results):
 
 def SluggingPercentage(Results):
 
-    SP_file = open('./Results/SluggingPercentage.txt', 'w')
+    SP_file = open('./Reports/SluggingPercentage.txt', 'w')
 
     SP_list = []
 
@@ -54,7 +54,7 @@ def SluggingPercentage(Results):
 
 def OnBasePercentage(Results):
 
-    OBP_file = open('./Results/OnBasePercentage.txt', 'w')
+    OBP_file = open('./Reports/OnBasePercentage.txt', 'w')
 
     OBP_list = []
 
@@ -80,7 +80,7 @@ def OnBasePercentage(Results):
 
 def OPS(Results):
 
-    OPS_file = open('./Results/OPS.txt', 'w')
+    OPS_file = open('./Reports/OPS.txt', 'w')
 
     OPS_list = []
 
@@ -106,7 +106,7 @@ def OPS(Results):
 
 def RunsProduced(Results):
 
-    RP_file = open('./Results/RunsProduced.txt', 'w')
+    RP_file = open('./Reports/RunsProduced.txt', 'w')
 
     RP_list = []
 
@@ -132,7 +132,7 @@ def RunsProduced(Results):
 
 def RunsProducedPerAtBat(Results):
 
-    RPPAB_file = open('./Results/RunsProducedPerAtBat.txt', 'w')
+    RPPAB_file = open('./Reports/RunsProducedPerAtBat.txt', 'w')
 
     RPPAB_list = []
 
