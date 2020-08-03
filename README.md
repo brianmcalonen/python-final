@@ -2,9 +2,6 @@
 
 ## Programming Fundamentals I course (COSC-1336)
 
-### Brian McAlonen
-### ACCid: 2046751
-### 08/02/2020
 
 The steps required to accomplish this goal can be described as the follows:
 
